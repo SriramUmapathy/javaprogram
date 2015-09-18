@@ -1,0 +1,19 @@
+
+A
+Apple	Aeroplane	dgf	
+B
+Bat	Banana	
+C
+Cat	Car	
+A
+Apple	Aeroplane	dgf	
+B
+Bat	Banana	
+C
+Cat	Car	
+A
+Apple	Aeroplane	dgf	
+B
+Bat	Banana	
+C
+Cat	Car	
