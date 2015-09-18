@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+body{
+	background-image: url("blur.jpg"), url(3.jpg);
+	width: 100%;
+	background-size: cover;
+	
+    background-attachment: fixed;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+	margin: 0px;
+	border:0px;
+	padding: 0px;
+}
+ul {
+    list-style-type: none;
+    position:fixed;
+    z-index: 3;
+    margin: 0;
+	border: 0;
+    padding: 0;
+    width:100%;
+    background-color: #f2f2f2;
+}
+
+li {
+    float: left;
+    margin:0px;
+	border:0px;
+	border-style: solid;
+    border-color: black;
+    width: 25%;
+ 	height:25px;
+    
+}
+
+a {
+
+    display: block;
+    width: 100px;
+    height:25px;
+    margin:0px auto;
+	text-align:center;
+	color: #9E66FF;
+	text-decoration:none;
+
+}
+a:hover {
+
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color:  #e3e3e3;
+	margin:0px auto;
+	text-align:center;
+	color: #9E66FF;
+	text-decoration:none;
+}
+#outerId{
+position:relative;
+top:240px;
+left: 505px;
+width: 380px;
+height: 380px;
+font-weight: bold;
+
+}
+#innerId{
+margin:0px,auto;
+border:1px;
+border-style: solid;
+border-radius: 25px;
+    border-color: black;
+padding:20px;
+
+}
+.name{
+position:relative;
+left: 20px;
+}
+.value{
+position: relative;
+left:130px;
+top: -19px;
+
+}
+#value{
+
+position: relative;
+    left: 132px;
+    bottom: 5px;
+    border: 2px;
+   
+}
+#innervalue{
+
+position: relative;
+left:0px;
+top: 0px;
+
+}
+#button{
+ background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+    min-width: 54px;
+    line-height: 27px;
+position: relative;
+margin: 0px;
+
+padding: 1px;
+width: 80px;
+height: 30px;
+font-style: oblique;
+font-weight: bold;
+
+}
+#button:hover{
+   
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+ #image{
+          position: relative;
+              top: 685px;
+              left: 0px;
+              margin: 0px;
+              border: 0px;
+              padding: 0px;
+              width: 100%;
+          }
+          #footer{
+          margin:0px;
+border:0px;
+	border-style: solid;
+    border-color: #ff0000 #0000ff;     
+    position: relative;
+    left:0px;
+    bottom:-681px; 
+    min-width: 1348.5px;
+max-width: 1351px;
+    height:60px;   
+    background-color: #f2f2f2;
+    text-align: center;
+          
+          }
+         
+          
+</style>
+</head>
+<body>
+<div>
+<ul>
+  <li id="li1"><a href="#">login</a></li>
+  <li id="li2"><a href="#">log out</a></li>
+  <li id="li3"><a href="#">Contact</a></li>
+  <li id="li4"><a href="#">About</a></li>
+</ul>
+</div>
+<div id="outerId">
+
+<div id="innerId"> 
+<form action="servlet1" method="post" >
+
+<div class="name">Name:</div> 
+<div class="value"><input type="text" name="userName"/>  </div>
+
+<div class="name">Password:</div>
+<div class="value"><input type="password" name="userPass"/></div>  
+
+<div id="value"><div id="innervalue"><input type="submit" id="button" value="login"/> </div></div>
+</form> 
+</div>
+
+</div>
+<div id="image">
+      <img src="Brain.jpg" alt="Smiley face" height="668" width="1349">
+      </div>
+      <div   id="footer"> 
+         copy rights
+      </div>
+      </body>
+</html>

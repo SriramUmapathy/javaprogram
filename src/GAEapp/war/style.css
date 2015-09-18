@@ -1,0 +1,188 @@
+ body {
+        min-width: 900px;
+       }
+
+
+      #googleImage { 
+  position: absolute;
+  left: 480px;
+  top: 155px;
+      }  
+
+#inputBox { 
+    position: absolute;
+    left: 380px;
+    top: 285px;
+      }
+
+
+          #button1 { 
+  position: absolute;
+  left: 529px;
+  top: 350px;
+      }  
+
+
+          #button2 { 
+  position: absolute;
+  left: 658px;
+  top: 350px;
+      }  
+
+.hvr{
+ border: 1px solid #f2f2f2;
+    border-radius: 2px;
+                                                                           
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;   
+    padding: 0 16px;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    box-sizing: border-box;
+    height: 36px;
+}
+
+
+.hvr:hover {
+   
+    border-radius: 1px;
+    border-style:ridge;
+ font-weight: bold;
+}
+
+          a:link {
+    text-decoration: none;
+}
+
+
+          a:hover {
+    text-decoration: underline;
+}
+
+
+          #firstLine { 
+  position: absolute;
+  left: 435px;
+  top: 420px;
+      }  
+
+
+           #secondLine { 
+word-spacing: 5px;
+  position: absolute;
+  left: 382px;
+  top: 470px;
+      }  
+
+      
+
+      #txtbox{
+    height:40;
+    font-size:14pt;
+      }
+
+
+ #name{
+          position: absolute;
+    left: 1050px;
+    top: 25px;
+          }
+
+#dullString{
+ opacity: 0.4;
+ filter: alpha(opacity=40);
+}
+
+          #mail{
+          position: absolute;
+    left: 1105px;
+    top: 25px;
+          }
+
+          #imagesString{
+          position: absolute;
+    left: 1147px;
+    top: 25px;
+          }
+
+          #fontImage{
+              position: absolute;
+    left: 1215px;
+    top: 18px;
+          }
+
+ .fontstyle {
+    font: 13px arial, sans-serif;
+}
+
+#space {
+
+}
+
+          #fontImage2{
+           position: absolute;
+    left: 1250px;
+    top: 10px;   
+          }
+
+ #footerBarId {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e9;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+          .footerBarClass {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+          div {
+    display: block;
+}
+
+          #footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: relative;
+    width: 100%;
+}
+         
+
+              .footerBarInnerClass{
+                  text-decoration:none;
+                  margin-left:-27px;
+                  font-size:small;
+                 
+              }
+
+
+              .text{
+                  padding-left:30px;
+                  margin:0 !important;
+              }
+
+
+              #rightTag{
+                  float:right;
+font-family: arial,sans-serif;
+                  white-space:nowrap;
+              }
+
+
+              #leftTag{
+font-family: arial,sans-serif;
+                  white-space:nowrap;
+              }
+
+
+.footerBarInnerClass a{
+                   color:#777;
+              }
+              
